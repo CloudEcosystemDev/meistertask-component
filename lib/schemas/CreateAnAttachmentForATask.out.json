@@ -1,0 +1,27 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "15" },
+  "name": { "type": "string", "format": "nullable" },
+  "size": { "type": "integer", "format": "int32", "example": "6972" },
+  "source": { "type": "integer", "format": "int32", "example": "3" },
+  "content_type": { "type": "string", "example": "application/pdf" },
+  "person_id": { "type": "integer", "format": "int32", "example": "2" },
+  "task_id": { "type": "integer", "format": "int32", "example": "1" },
+  "created_at": { "type": "string", "example": "2019-07-25T13:18:32.146097Z" },
+  "updated_at": { "type": "string", "example": "2019-07-25T13:18:32.442067Z" },
+  "url": {
+    "type": "string",
+    "example": "http://meistertask.com/attachments/15/download?s=original"
+  },
+  "thumb_url": {
+    "type": "string",
+    "example": "/attachments/15/download?s=thumb"
+  },
+  "medium_url": {
+    "type": "string",
+    "example": "/attachments/15/download?s=medium"
+  },
+  "large_url": {
+    "type": "string",
+    "example": "/attachments/15/download?s=large"
+  }
+}

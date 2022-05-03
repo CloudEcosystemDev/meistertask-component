@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        },
+        "sequence": { "type": "number", "example": "21.19" }
+      }
+    }
+  }
+}

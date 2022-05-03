@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "73" },
+      "name": { "type": "string", "example": "Open" },
+      "description": { "type": "string", "format": "nullable" },
+      "color": { "type": "string", "example": "30bfbf" },
+      "status": { "type": "integer", "format": "int32", "example": "1" },
+      "project_id": { "type": "integer", "format": "int32", "example": "42" },
+      "sequence": { "type": "integer", "format": "int32", "example": "1" },
+      "created_at": {
+        "type": "string",
+        "example": "2017-01-13T09:29:36.722740Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2017-01-13T09:29:36.722616Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "team": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "12" },
+      "name": { "type": "string", "example": "Business Team" },
+      "plan": { "type": "string", "example": "business" },
+      "active_user_count": {
+        "type": "integer",
+        "format": "int32",
+        "example": "3"
+      }
+    }
+  },
+  "groups": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer", "format": "int32", "example": "1" },
+        "name": { "type": "string", "example": "Design" },
+        "active_user_count": {
+          "type": "integer",
+          "format": "int32",
+          "example": "1"
+        }
+      }
+    }
+  }
+}

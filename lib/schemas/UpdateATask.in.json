@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "assigned_to_id": {
+          "type": "integer",
+          "format": "int32",
+          "example": "123"
+        },
+        "due": { "type": "string", "example": "string example" },
+        "name": { "type": "string", "example": "string example" },
+        "notes": { "type": "string", "example": "string example" },
+        "section_id": {
+          "type": "integer",
+          "format": "int32",
+          "example": "123"
+        },
+        "status": { "type": "integer", "format": "int32", "example": "123" }
+      }
+    }
+  }
+}

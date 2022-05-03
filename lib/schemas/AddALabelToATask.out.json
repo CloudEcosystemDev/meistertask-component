@@ -1,0 +1,10 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "364" },
+  "label_id": {
+    "type": "integer",
+    "format": "int32",
+    "example": "25",
+    "required": true
+  },
+  "task_id": { "type": "integer", "format": "int32", "example": "123" }
+}

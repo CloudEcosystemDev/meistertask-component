@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        }
+      }
+    }
+  }
+}

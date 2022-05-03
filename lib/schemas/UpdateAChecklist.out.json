@@ -1,0 +1,7 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "2" },
+  "name": { "type": "string", "example": "Checklist A" },
+  "sequence": { "type": "integer", "format": "int32", "example": "0" },
+  "task_id": { "type": "integer", "format": "int32", "example": "32" },
+  "project_id": { "type": "integer", "format": "int32", "example": "6" }
+}

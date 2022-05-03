@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "example": "string example" },
+        "status": { "type": "integer", "format": "int32", "example": "123" }
+      }
+    }
+  }
+}

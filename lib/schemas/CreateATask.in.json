@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        },
+        "assigned_to_id": { "type": "string", "example": "string example" },
+        "notes": { "type": "string", "example": "string example" },
+        "status": { "type": "integer", "format": "int32", "example": "123" },
+        "label_ids": { "type": "integer", "format": "int32", "example": "123" }
+      }
+    }
+  }
+}

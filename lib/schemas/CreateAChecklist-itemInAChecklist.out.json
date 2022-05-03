@@ -1,0 +1,13 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "28" },
+  "checklist_id": { "type": "integer", "format": "int32", "example": "6" },
+  "sequence": { "type": "integer", "format": "int32", "example": "0" },
+  "name": {
+    "type": "string",
+    "example": "My Checklist Item",
+    "required": true
+  },
+  "status": { "type": "integer", "format": "int32", "example": "1" },
+  "created_at": { "type": "string", "example": "2018-12-19T16:15:55.021828Z" },
+  "updated_at": { "type": "string", "example": "2018-12-19T16:15:55.021828Z" }
+}

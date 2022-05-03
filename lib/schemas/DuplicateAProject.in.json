@@ -1,0 +1,10 @@
+{
+  "name": "string example",
+  "notes": "string example",
+  "include_attachments": "string example",
+  "include_checklists": "string example",
+  "include_labels": "string example",
+  "include_project_rights": "string example",
+  "include_tasks": "string example",
+  "requiredArray": []
+}

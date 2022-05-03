@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "26" },
+      "name": { "type": "string", "example": "Checklist A" },
+      "sequence": { "type": "integer", "format": "int32", "example": "100000" },
+      "task_id": { "type": "integer", "format": "int32", "example": "12" },
+      "project_id": { "type": "integer", "format": "int32", "example": "6" }
+    }
+  }
+}

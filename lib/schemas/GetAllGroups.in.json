@@ -1,0 +1,5 @@
+{
+  "type": "object",
+  "include_team": { "type": "boolean" },
+  "requiredArray": { "type": "array", "items": {} }
+}

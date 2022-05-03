@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "8" },
+      "firstname": { "type": "string", "example": "Jane" },
+      "lastname": { "type": "string", "example": "Demo" },
+      "email": { "type": "string", "example": "jane:::at:::example.com" },
+      "avatar": {
+        "type": "string",
+        "example": "https://www.example.com/files/avatars/jane.jpg"
+      },
+      "avatar_thumb": {
+        "type": "string",
+        "example": "https://www.example.com/files/avatars/jane.jpg"
+      },
+      "created_at": {
+        "type": "string",
+        "example": "2017-04-02T03:14:15.926535Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2017-04-02T03:14:15.926535Z"
+      }
+    }
+  }
+}

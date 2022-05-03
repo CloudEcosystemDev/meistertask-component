@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "target_id": {
+          "type": "integer",
+          "format": "int32",
+          "example": "123",
+          "required": true
+        },
+        "relationship_type": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        }
+      }
+    }
+  }
+}

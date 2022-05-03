@@ -1,0 +1,8 @@
+{
+  "project_id": { "type": "integer", "format": "int32", "example": "123" },
+  "person_id": { "type": "integer", "format": "int32", "example": "8" },
+  "role_id": { "type": "integer", "format": "int32", "example": "2" },
+  "watching": { "type": "boolean" },
+  "updated_at": { "type": "string", "example": "2017-07-03T12:44:50.839113Z" },
+  "created_at": { "type": "string", "example": "2017-07-03T12:44:50.839113Z" }
+}
