@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "group_id": { "type": "integer", "format": "int32", "example": "123" },
+        "include_member": { "type": "boolean" },
+        "include_persons": { "type": "boolean" }
+      }
+    }
+  }
+}

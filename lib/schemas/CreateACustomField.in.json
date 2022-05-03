@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        },
+        "custom_field_type_id": {
+          "type": "integer",
+          "format": "int32",
+          "example": "123",
+          "required": true
+        }
+      }
+    }
+  }
+}

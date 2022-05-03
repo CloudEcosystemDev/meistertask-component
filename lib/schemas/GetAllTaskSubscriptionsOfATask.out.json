@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "72" },
+      "task_id": { "type": "integer", "format": "int32", "example": "82" },
+      "person_id": { "type": "integer", "format": "int32", "example": "13" }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "11" },
+      "name": { "type": "string", "example": "Effort" },
+      "description": {
+        "type": "string",
+        "example": "Estimate work hours for task"
+      },
+      "field_type": { "type": "integer", "format": "int32", "example": "1" },
+      "unit": { "type": "string", "format": "nullable" },
+      "sequence": { "type": "integer", "format": "int32", "example": "0" },
+      "project_id": { "type": "integer", "format": "int32", "example": "7" },
+      "created_at": {
+        "type": "string",
+        "example": "2019-01-22T15:59:35.348409Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2019-01-22T15:59:35.348409Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "119" },
+      "name": { "type": "string", "example": "Intermediate" },
+      "description": { "type": "string", "format": "nullable" },
+      "color": { "type": "string", "example": "30bfbf" },
+      "status": { "type": "integer", "format": "int32", "example": "1" },
+      "project_id": { "type": "integer", "format": "int32", "example": "66" },
+      "sequence": { "type": "integer", "format": "int32", "example": "-1" },
+      "created_at": {
+        "type": "string",
+        "example": "2017-01-25T13:22:34.559759Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2017-02-01T09:24:48.453184Z"
+      }
+    }
+  }
+}

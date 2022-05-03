@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "110" },
+      "name": { "type": "string", "example": "★" },
+      "sequence": { "type": "integer", "format": "int32", "example": "0" },
+      "custom_field_type_id": {
+        "type": "integer",
+        "format": "int32",
+        "example": "76"
+      },
+      "created_at": {
+        "type": "string",
+        "example": "2019-09-23T10:12:55.103053Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2019-09-23T10:12:55.103053Z"
+      }
+    }
+  }
+}

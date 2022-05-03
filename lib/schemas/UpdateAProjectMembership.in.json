@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "role_id": { "type": "integer", "format": "int32", "example": "123" }
+      }
+    }
+  }
+}

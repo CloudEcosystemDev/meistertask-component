@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "watching": { "type": "boolean" },
+        "role_id": { "type": "integer", "format": "int32", "example": "123" }
+      }
+    }
+  }
+}

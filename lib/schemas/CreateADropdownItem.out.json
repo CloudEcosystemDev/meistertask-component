@@ -1,0 +1,12 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "20" },
+  "name": { "type": "string", "example": "Banana", "required": true },
+  "sequence": { "type": "integer", "format": "int32", "example": "700000" },
+  "custom_field_type_id": {
+    "type": "integer",
+    "format": "int32",
+    "example": "73"
+  },
+  "created_at": { "type": "string", "example": "2019-09-23T10:42:41.716173Z" },
+  "updated_at": { "type": "string", "example": "2019-09-23T10:42:41.716173Z" }
+}

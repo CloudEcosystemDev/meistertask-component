@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "1" },
+      "name": { "type": "string", "example": "harvest" },
+      "value": { "type": "boolean" },
+      "project_id": { "type": "integer", "format": "int32", "example": "42" },
+      "created_at": {
+        "type": "string",
+        "example": "2017-01-13T09:29:36.722740Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2017-01-13T09:29:36.722616Z"
+      }
+    }
+  }
+}

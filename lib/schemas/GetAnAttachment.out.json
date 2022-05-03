@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "name": "test.svg",
+  "size": 500,
+  "source": 3,
+  "content_type": "image/svg+xml",
+  "person_id": 2,
+  "task_id": 1,
+  "created_at": "2019-07-01T09:50:09.246174Z",
+  "updated_at": "2019-07-01T09:50:09.320215Z",
+  "url": "http://meistertask.com/attachments/1/download?s=original",
+  "thumb_url": "/attachments/1/download?s=thumb",
+  "medium_url": "/attachments/1/download?s=medium",
+  "large_url": "/attachments/1/download?s=large"
+}

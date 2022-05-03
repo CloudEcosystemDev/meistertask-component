@@ -1,0 +1,41 @@
+{
+  "id": { "type": "integer", "format": "int32", "example": "1" },
+  "project_id": { "type": "integer", "format": "int32", "example": "373" },
+  "member_id": { "type": "integer", "format": "int32", "example": "2" },
+  "member_type": { "type": "string", "example": "Group" },
+  "role_id": { "type": "integer", "format": "int32", "example": "3" },
+  "created_at": { "type": "string", "example": "2017-11-09T13:37:48.124807Z" },
+  "updated_at": { "type": "string", "example": "2017-11-09T13:37:48.124807Z" },
+  "group": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "2" },
+      "name": { "type": "string", "example": "Marketing" },
+      "active_user_count": {
+        "type": "integer",
+        "format": "int32",
+        "example": "2"
+      }
+    }
+  },
+  "persons": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer", "format": "int32", "example": "34" },
+        "firstname": { "type": "string", "example": "Maxi" },
+        "lastname": { "type": "string", "example": "Maximan" },
+        "email": { "type": "string", "example": "maxi:::at:::maximan.info" },
+        "created_at": {
+          "type": "string",
+          "example": "2017-11-09T13:05:09.000000Z"
+        },
+        "updated_at": {
+          "type": "string",
+          "example": "2017-11-09T13:05:09.000000Z"
+        }
+      }
+    }
+  }
+}

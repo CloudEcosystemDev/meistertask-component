@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "15" },
+      "token": { "type": "string", "example": "gvuUs17f" },
+      "name": { "type": "string", "example": "Task Name" },
+      "notes": { "type": "string", "example": "Here are some task notes" },
+      "status": { "type": "integer", "format": "int32", "example": "1" },
+      "status_updated_at": {
+        "type": "string",
+        "example": "2019-05-09T14:49:18.303930Z"
+      },
+      "section_id": { "type": "integer", "format": "int32", "example": "1" },
+      "section_name": { "type": "string", "example": "Open" },
+      "project_id": { "type": "integer", "format": "int32", "example": "15" },
+      "sequence": { "type": "integer", "format": "int32", "example": "100" },
+      "assigned_to_id": {
+        "type": "integer",
+        "format": "int32",
+        "example": "1"
+      },
+      "tracked_time": {
+        "type": "integer",
+        "format": "int32",
+        "example": "3600"
+      },
+      "due": { "type": "string", "format": "nullable" },
+      "created_at": {
+        "type": "string",
+        "example": "2019-02-06T17:01:33.635649Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2019-05-09T14:49:18.304227Z"
+      }
+    }
+  }
+}

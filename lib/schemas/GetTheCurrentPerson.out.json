@@ -1,0 +1,10 @@
+{
+  "id": 8,
+  "firstname": "Jane",
+  "lastname": "Demo",
+  "email": "jane:::at:::example.com",
+  "avatar": "https://www.example.com/files/avatars/jane.jpg",
+  "avatar_thumb": "https://www.example.com/files/avatars/jane.jpg",
+  "created_at": "2017-04-02T03:14:15.926535Z",
+  "updated_at": "2017-04-02T03:14:15.926535Z"
+}

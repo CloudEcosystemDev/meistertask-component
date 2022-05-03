@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "25" },
+      "task_id": { "type": "integer", "format": "int32", "example": "26" },
+      "person_id": { "type": "integer", "format": "int32", "example": "4490" },
+      "project_id": { "type": "integer", "format": "int32", "example": "46" },
+      "started_at": {
+        "type": "string",
+        "example": "2018-02-12T10:12:14.000000Z"
+      },
+      "finished_at": {
+        "type": "string",
+        "example": "2018-02-12T10:12:14.000000Z"
+      }
+    }
+  }
+}

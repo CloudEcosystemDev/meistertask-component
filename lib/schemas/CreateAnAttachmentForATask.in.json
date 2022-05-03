@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "requestBody": {
+      "type": "object",
+      "properties": {
+        "local": {
+          "type": "string",
+          "example": "string example",
+          "required": true
+        },
+        "name": { "type": "string", "example": "string example" }
+      }
+    }
+  }
+}

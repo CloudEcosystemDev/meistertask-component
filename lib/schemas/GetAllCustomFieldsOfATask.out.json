@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer", "format": "int32", "example": "5" },
+      "value": { "type": "string", "example": "Awesome Field" },
+      "custom_field_type_id": {
+        "type": "integer",
+        "format": "int32",
+        "example": "13"
+      },
+      "item_type": { "type": "string", "example": "Task" },
+      "item_id": { "type": "integer", "format": "int32", "example": "9" },
+      "created_at": {
+        "type": "string",
+        "example": "2019-01-22T15:57:21.073930Z"
+      },
+      "updated_at": {
+        "type": "string",
+        "example": "2019-01-22T15:57:21.073930Z"
+      }
+    }
+  }
+}
