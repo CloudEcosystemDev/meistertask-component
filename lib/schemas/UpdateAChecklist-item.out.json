@@ -1,4 +1,6 @@
 {
+  "type": "object",
+  "properties": {
   "id": { "type": "integer", "format": "int32", "example": "12" },
   "checklist_id": { "type": "integer", "format": "int32", "example": "5" },
   "sequence": { "type": "integer", "format": "int32", "example": "0" },
@@ -6,4 +8,4 @@
   "status": { "type": "integer", "format": "int32", "example": "1" },
   "created_at": { "type": "string", "example": "2018-12-13T09:51:46.661484Z" },
   "updated_at": { "type": "string", "example": "2018-12-13T09:51:46.661484Z" }
-}
+}}

@@ -1,17 +1,44 @@
 {
-  "id": 15,
-  "token": "gvuUs17f",
-  "name": "Task Name",
-  "notes": "Here are some task notes",
-  "status": 1,
-  "status_updated_at": "2019-05-09T14:49:18.303930Z",
-  "section_id": 1,
-  "section_name": "Open",
-  "project_id": 15,
-  "sequence": 100,
-  "assigned_to_id": 1,
-  "tracked_time": 3600,
-  "due": null,
-  "created_at": "2019-02-06T17:01:33.635649Z",
-  "updated_at": "2019-05-09T14:49:18.304227Z"
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "format": "int32", "example": "25" },
+    "token": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "name": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "notes": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "status": { "type": "integer", "format": "int32", "example": "25" },
+    "status_updated_at": {
+      "type": "string",
+      "example": "2018-02-12T10:12:14.000000Z"
+    },
+    "section_id": { "type": "integer", "format": "int32", "example": "25" },
+    "section_name": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "project_id": { "type": "integer", "format": "int32", "example": "25" },
+    "sequence": { "type": "integer", "format": "int32", "example": "25" },
+    "assigned_to_id": { "type": "integer", "format": "int32", "example": "25" },
+    "tracked_time": { "type": "integer", "format": "int32", "example": "25" },
+    "due": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "created_at": {
+      "type": "string",
+      "example": "2018-02-12T10:12:14.000000Z"
+    },
+    "updated_at": {
+      "type": "string",
+      "example": "2018-02-12T10:12:14.000000Z"
+    }
+  }
 }

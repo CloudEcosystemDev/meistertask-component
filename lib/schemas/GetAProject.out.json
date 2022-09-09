@@ -1,9 +1,27 @@
 {
-  "id": 123,
-  "token": "s3i5reaF",
-  "name": "Getting Started with MeisterTask",
-  "notes": "This is just a demo project",
-  "status": 1,
-  "created_at": "2017-01-13T09:29:36.360375Z",
-  "updated_at": "2017-01-16T10:10:21.460697Z"
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "format": "int32", "example": "25" },
+    "status": { "type": "integer", "format": "int32", "example": "25" },
+    "name": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "token": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "notes": {
+      "type": "string",
+      "example": "anme example"
+    },
+    "created_at": {
+      "type": "string",
+      "example": "2018-02-12T10:12:14.000000Z"
+    },
+    "updated_at": {
+      "type": "string",
+      "example": "2018-02-12T10:12:14.000000Z"
+    }
+  }
 }

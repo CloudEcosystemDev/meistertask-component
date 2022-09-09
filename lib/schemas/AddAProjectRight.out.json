@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "1" },
   "project_id": { "type": "integer", "format": "int32", "example": "373" },
   "member_id": { "type": "integer", "format": "int32", "example": "2" },
@@ -38,4 +41,5 @@
       }
     }
   }
+}
 }

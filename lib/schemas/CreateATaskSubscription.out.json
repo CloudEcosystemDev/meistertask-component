@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "5" },
   "task_id": { "type": "integer", "format": "int32", "example": "27" },
   "person_id": {
@@ -7,4 +10,5 @@
     "example": "13",
     "required": true
   }
+}
 }

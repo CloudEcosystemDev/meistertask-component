@@ -1,8 +1,12 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": 1,
   "name": "stats",
   "value": "true",
   "project_id": 42,
   "created_at": "1444996366679.577",
   "updated_at": "1444996366679.32"
+}
 }
