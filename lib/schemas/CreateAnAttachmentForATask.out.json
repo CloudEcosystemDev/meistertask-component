@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "15" },
   "name": { "type": "string", "format": "nullable" },
   "size": { "type": "integer", "format": "int32", "example": "6972" },
@@ -24,4 +27,5 @@
     "type": "string",
     "example": "/attachments/15/download?s=large"
   }
+}
 }

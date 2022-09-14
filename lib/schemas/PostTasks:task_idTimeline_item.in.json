@@ -1,5 +1,8 @@
 {
-  "start_date": "string example",
-  "end_date": "string example",
-  "requiredArray": ["start_date", "end_date"]
+  "type": "object",
+  "properties": {
+    "requestBody": {
+      "properties": {}
+    }
+  }
 }

@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "72" },
   "name": { "type": "string", "example": "new section", "required": true },
   "indicator": { "type": "integer", "format": "int32", "example": "1" },
@@ -8,4 +11,5 @@
   "updated_at": { "type": "string", "example": "1444996366679.32" },
   "status": { "type": "integer", "format": "int32", "example": "1" },
   "color": { "type": "string", "format": "nullable" }
+}
 }

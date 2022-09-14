@@ -1,5 +1,4 @@
 {
-  "properties": {
     "type": "object",
     "properties": {
       "id": { "type": "integer", "format": "int32", "example": "364" },
@@ -7,4 +6,3 @@
       "task_id": { "type": "integer", "format": "int32", "example": "123" }
     }
   }
-}

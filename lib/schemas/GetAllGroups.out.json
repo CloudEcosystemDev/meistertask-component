@@ -1,5 +1,8 @@
 {
   "type": "object",
+  "properties": {
+
+  "type": "object",
   "team": {
     "type": "object",
     "properties": {
@@ -28,4 +31,5 @@
       }
     }
   }
+}
 }

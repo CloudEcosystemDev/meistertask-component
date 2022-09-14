@@ -1,1 +1,1177 @@
-{"triggers": {"GetAllAttachmentsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all attachments of a task.", "description": "Get all attachments of a task.", "callParams": {"pathName": "/tasks/:task_id/attachments", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllAttachmentsOfATask.in.json", "out": "./lib/schemas/GetAllAttachmentsOfATask.out.json"}, "queryParams": []}, "GetAllChecklistsOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all checklists of a project.", "description": "Get all checklists of a project.", "callParams": {"pathName": "/projects/:project_id/checklists", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllChecklistsOfAProject.in.json", "out": "./lib/schemas/GetAllChecklistsOfAProject.out.json"}, "queryParams": []}, "GetAllChecklistsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all checklists of a task.", "description": "Get all checklists of a task.", "callParams": {"pathName": "/tasks/:task_id/checklists", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllChecklistsOfATask.in.json", "out": "./lib/schemas/GetAllChecklistsOfATask.out.json"}, "queryParams": [{"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllChecklist-itemsOfAChecklist": {"main": "./lib/triggers/trigger.js", "title": "Get all checklist-items of a checklist.", "description": "Get all checklist-items of a checklist.", "callParams": {"pathName": "/checklists/:checklist_id/checklist_items", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllChecklist-itemsOfAChecklist.in.json", "out": "./lib/schemas/GetAllChecklist-itemsOfAChecklist.out.json"}, "queryParams": []}, "GetAllChecklist-itemsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all checklist-items of a task.", "description": "Get all checklist-items of a task.", "callParams": {"pathName": "/tasks/:task_id/checklist_items", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllChecklist-itemsOfATask.in.json", "out": "./lib/schemas/GetAllChecklist-itemsOfATask.out.json"}, "queryParams": []}, "GetAllCommentsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all comments of a task.", "description": "Get all comments of a task.", "callParams": {"pathName": "/tasks/:task_id/comments", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllCommentsOfATask.in.json", "out": "./lib/schemas/GetAllCommentsOfATask.out.json"}, "queryParams": [{"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllCustomFieldsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all custom fields of a task.", "description": "Get all custom fields of a task.", "callParams": {"pathName": "/tasks/:task_id/custom_fields", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllCustomFieldsOfATask.in.json", "out": "./lib/schemas/GetAllCustomFieldsOfATask.out.json"}, "queryParams": []}, "GetAllCustomFieldTypesOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all custom field types of a project.", "description": "Get all custom field types of a project.", "callParams": {"pathName": "/projects/:project_id/custom_field_types", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllCustomFieldTypesOfAProject.in.json", "out": "./lib/schemas/GetAllCustomFieldTypesOfAProject.out.json"}, "queryParams": []}, "GetAllDropdownItemsOfACustomFieldType": {"main": "./lib/triggers/trigger.js", "title": "Get all dropdown items of a custom field type.", "description": "Get all dropdown items of a custom field type.", "callParams": {"pathName": "/custom_field_types/:custom_field_type_id/dropdown_items", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllDropdownItemsOfACustomFieldType.in.json", "out": "./lib/schemas/GetAllDropdownItemsOfACustomFieldType.out.json"}, "queryParams": []}, "GetAllLabelsOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all labels of a project.", "description": "Get all labels of a project.", "callParams": {"pathName": "/projects/:project_id/labels", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllLabelsOfAProject.in.json", "out": "./lib/schemas/GetAllLabelsOfAProject.out.json"}, "queryParams": []}, "GetAllLabelsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all labels of a task.", "description": "Get all labels of a task.", "callParams": {"pathName": "/tasks/:task_id/labels", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllLabelsOfATask.in.json", "out": "./lib/schemas/GetAllLabelsOfATask.out.json"}, "queryParams": []}, "GetAllAvailablePersons": {"main": "./lib/triggers/trigger.js", "title": "Get all available persons.", "description": "Get all available persons.", "callParams": {"pathName": "/persons", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllAvailablePersons.in.json", "out": "./lib/schemas/GetAllAvailablePersons.out.json"}, "queryParams": []}, "GetAllPersonsWhoHaveAccessToAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all persons who have access to a project.", "description": "Get all persons who have access to a project.", "callParams": {"pathName": "/projects/:project_id/persons", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllPersonsWhoHaveAccessToAProject.in.json", "out": "./lib/schemas/GetAllPersonsWhoHaveAccessToAProject.out.json"}, "queryParams": []}, "GetAllAvailableProjects": {"main": "./lib/triggers/trigger.js", "title": "Get all available projects.", "description": "Get all available projects.", "callParams": {"pathName": "/projects", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllAvailableProjects.in.json", "out": "./lib/schemas/GetAllAvailableProjects.out.json"}, "queryParams": [{"name": "status", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllProjectSettingsOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all project settings of a project.", "description": "Get all project settings of a project.", "callParams": {"pathName": "/projects/:project_id/project_settings", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllProjectSettingsOfAProject.in.json", "out": "./lib/schemas/GetAllProjectSettingsOfAProject.out.json"}, "queryParams": []}, "GetAllSectionOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all section of a project.", "description": "Get all section of a project.", "callParams": {"pathName": "/projects/:project_id/sections", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllSectionOfAProject.in.json", "out": "./lib/schemas/GetAllSectionOfAProject.out.json"}, "queryParams": [{"name": "status", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllAvailableSections": {"main": "./lib/triggers/trigger.js", "title": "Get all available sections.", "description": "Get all available sections.", "callParams": {"pathName": "/sections", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllAvailableSections.in.json", "out": "./lib/schemas/GetAllAvailableSections.out.json"}, "queryParams": [{"name": "status", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllTasksOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all tasks of a project.", "description": "Get all tasks of a project.", "callParams": {"pathName": "/projects/:project_id/tasks", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllTasksOfAProject.in.json", "out": "./lib/schemas/GetAllTasksOfAProject.out.json"}, "queryParams": [{"name": "assigned_to_me", "type": "string"}, {"name": "focused_by_me", "type": "string"}, {"name": "status", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllTasksOfASection": {"main": "./lib/triggers/trigger.js", "title": "Get all tasks of a section.", "description": "Get all tasks of a section.", "callParams": {"pathName": "/sections/:section_id/tasks", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllTasksOfASection.in.json", "out": "./lib/schemas/GetAllTasksOfASection.out.json"}, "queryParams": [{"name": "assigned_to_me", "type": "string"}, {"name": "focused_by_me", "type": "string"}, {"name": "status", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllAvailableTasks": {"main": "./lib/triggers/trigger.js", "title": "Get all available tasks.", "description": "Get all available tasks.", "callParams": {"pathName": "/tasks", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllAvailableTasks.in.json", "out": "./lib/schemas/GetAllAvailableTasks.out.json"}, "queryParams": [{"name": "assigned_to_me", "type": "string"}, {"name": "focused_by_me", "type": "string"}, {"name": "status", "type": "string"}, {"name": "labels", "type": "string"}, {"name": "items", "type": "integer"}, {"name": "page", "type": "integer"}, {"name": "sort", "type": "string"}]}, "GetAllTaskLabelsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all task labels of a task.", "description": "Get all task labels of a task.", "callParams": {"pathName": "/tasks/:task_id/task_labels", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllTaskLabelsOfATask.in.json", "out": "./lib/schemas/GetAllTaskLabelsOfATask.out.json"}, "queryParams": []}, "GetAllTaskRelationshipsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all task relationships of a task.", "description": "Get all task relationships of a task.", "callParams": {"pathName": "/tasks/:task_id/task_relationships", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllTaskRelationshipsOfATask.in.json", "out": "./lib/schemas/GetAllTaskRelationshipsOfATask.out.json"}, "queryParams": []}, "GetAllTaskSubscriptionsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all task subscriptions of a task.", "description": "Get all task subscriptions of a task.", "callParams": {"pathName": "/tasks/:task_id/task_subscriptions", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllTaskSubscriptionsOfATask.in.json", "out": "./lib/schemas/GetAllTaskSubscriptionsOfATask.out.json"}, "queryParams": []}, "GetAllWorkIntervalsOfAProject": {"main": "./lib/triggers/trigger.js", "title": "Get all work intervals of a project.", "description": "Get all work intervals of a project.", "callParams": {"pathName": "/projects/:project_id/work_intervals", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllWorkIntervalsOfAProject.in.json", "out": "./lib/schemas/GetAllWorkIntervalsOfAProject.out.json"}, "queryParams": [{"name": "finished", "type": "boolean"}, {"name": "ongoing", "type": "boolean"}]}, "GetAllWorkIntervalsOfATask": {"main": "./lib/triggers/trigger.js", "title": "Get all work intervals of a task..", "description": "Get all work intervals of a task..", "callParams": {"pathName": "/tasks/:task_id/work_intervals", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllWorkIntervalsOfATask.in.json", "out": "./lib/schemas/GetAllWorkIntervalsOfATask.out.json"}, "queryParams": [{"name": "finished", "type": "boolean"}, {"name": "ongoing", "type": "boolean"}]}}, "actions": {"GetAnAttachment": {"main": "./lib/actions/action.js", "title": "Get an attachment.", "description": "Get an attachment.", "callParams": {"pathName": "/attachments/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAnAttachment.in.json", "out": "./lib/schemas/GetAnAttachment.out.json"}}, "DeleteTheAttachment": {"main": "./lib/actions/action.js", "title": "Delete the attachment.", "description": "Delete the attachment.", "callParams": {"pathName": "/attachments/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteTheAttachment.in.json", "out": "./lib/schemas/DeleteTheAttachment.out.json"}}, "CreateAnAttachmentForATask": {"main": "./lib/actions/action.js", "title": "Create an attachment for a task.", "description": "Create an attachment for a task.", "callParams": {"pathName": "/tasks/:task_id/attachments", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAnAttachmentForATask.in.json", "out": "./lib/schemas/CreateAnAttachmentForATask.out.json"}}, "GetAChecklist": {"main": "./lib/actions/action.js", "title": "Get a checklist.", "description": "Get a checklist.", "callParams": {"pathName": "/checklists/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAChecklist.in.json", "out": "./lib/schemas/GetAChecklist.out.json"}}, "UpdateAChecklist": {"main": "./lib/actions/action.js", "title": "Update a checklist.", "description": "Update a checklist.", "callParams": {"pathName": "/checklists/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateAChecklist.in.json", "out": "./lib/schemas/UpdateAChecklist.out.json"}}, "DeleteAChecklist": {"main": "./lib/actions/action.js", "title": "Delete a checklist.", "description": "Delete a checklist.", "callParams": {"pathName": "/checklists/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteAChecklist.in.json", "out": "./lib/schemas/DeleteAChecklist.out.json"}}, "CreateAChecklistInAProject": {"main": "./lib/actions/action.js", "title": "Create a checklist in a project.", "description": "Create a checklist in a project.", "callParams": {"pathName": "/projects/:project_id/checklists", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAChecklistInAProject.in.json", "out": "./lib/schemas/CreateAChecklistInAProject.out.json"}}, "CreateAChecklistInATask": {"main": "./lib/actions/action.js", "title": "Create a checklist in a task.", "description": "Create a checklist in a task.", "callParams": {"pathName": "/tasks/:task_id/checklists", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAChecklistInATask.in.json", "out": "./lib/schemas/CreateAChecklistInATask.out.json"}}, "GetAChecklist-item": {"main": "./lib/actions/action.js", "title": "Get a checklist-item.", "description": "Get a checklist-item.", "callParams": {"pathName": "/checklist_items/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAChecklist-item.in.json", "out": "./lib/schemas/GetAChecklist-item.out.json"}}, "UpdateAChecklist-item": {"main": "./lib/actions/action.js", "title": "Update a checklist-item.", "description": "Update a checklist-item.", "callParams": {"pathName": "/checklist_items/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateAChecklist-item.in.json", "out": "./lib/schemas/UpdateAChecklist-item.out.json"}}, "DeleteAChecklist-item": {"main": "./lib/actions/action.js", "title": "Delete a checklist-item.", "description": "Delete a checklist-item.", "callParams": {"pathName": "/checklist_items/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteAChecklist-item.in.json", "out": "./lib/schemas/DeleteAChecklist-item.out.json"}}, "CreateAChecklist-itemInAChecklist": {"main": "./lib/actions/action.js", "title": "Create a checklist-item in a checklist.", "description": "Create a checklist-item in a checklist.", "callParams": {"pathName": "/checklists/:checklist_id/checklist_items", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAChecklist-itemInAChecklist.in.json", "out": "./lib/schemas/CreateAChecklist-itemInAChecklist.out.json"}}, "GetAComment": {"main": "./lib/actions/action.js", "title": "Get a comment.", "description": "Get a comment.", "callParams": {"pathName": "/comments/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAComment.in.json", "out": "./lib/schemas/GetAComment.out.json"}}, "DeleteAComment": {"main": "./lib/actions/action.js", "title": "Delete a comment.", "description": "Delete a comment.", "callParams": {"pathName": "/comments/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteAComment.in.json", "out": "./lib/schemas/DeleteAComment.out.json"}}, "CreateAComment": {"main": "./lib/actions/action.js", "title": "Create a comment.", "description": "Create a comment.", "callParams": {"pathName": "/tasks/:task_id/comments", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAComment.in.json", "out": "./lib/schemas/CreateAComment.out.json"}}, "GetACustomField": {"main": "./lib/actions/action.js", "title": "Get a custom field.", "description": "Get a custom field.", "callParams": {"pathName": "/custom_fields/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetACustomField.in.json", "out": "./lib/schemas/GetACustomField.out.json"}}, "UpdateACustomField": {"main": "./lib/actions/action.js", "title": "Update a custom field.", "description": "Update a custom field.", "callParams": {"pathName": "/custom_fields/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateACustomField.in.json", "out": "./lib/schemas/UpdateACustomField.out.json"}}, "DeleteACustomField": {"main": "./lib/actions/action.js", "title": "Delete a custom field.", "description": "Delete a custom field.", "callParams": {"pathName": "/custom_fields/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteACustomField.in.json", "out": "./lib/schemas/DeleteACustomField.out.json"}}, "CreateACustomField": {"main": "./lib/actions/action.js", "title": "Create a custom field.", "description": "Create a custom field.", "callParams": {"pathName": "/tasks/:task_id/custom_fields", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateACustomField.in.json", "out": "./lib/schemas/CreateACustomField.out.json"}}, "GetACustomFieldType": {"main": "./lib/actions/action.js", "title": "Get a custom field type.", "description": "Get a custom field type.", "callParams": {"pathName": "/custom_field_types/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetACustomFieldType.in.json", "out": "./lib/schemas/GetACustomFieldType.out.json"}}, "UpdateACustomFieldType": {"main": "./lib/actions/action.js", "title": "Update a custom field type.", "description": "Update a custom field type.", "callParams": {"pathName": "/custom_field_types/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateACustomFieldType.in.json", "out": "./lib/schemas/UpdateACustomFieldType.out.json"}}, "DeleteACustomFieldType": {"main": "./lib/actions/action.js", "title": "Delete a custom field type.", "description": "Delete a custom field type.", "callParams": {"pathName": "/custom_field_types/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteACustomFieldType.in.json", "out": "./lib/schemas/DeleteACustomFieldType.out.json"}}, "CreateACustomFieldType": {"main": "./lib/actions/action.js", "title": "Create a custom field type.", "description": "Create a custom field type.", "callParams": {"pathName": "/projects/:project_id/custom_field_types", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateACustomFieldType.in.json", "out": "./lib/schemas/CreateACustomFieldType.out.json"}}, "GetADropdownItem": {"main": "./lib/actions/action.js", "title": "Get a dropdown item.", "description": "Get a dropdown item.", "callParams": {"pathName": "/dropdown_items/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetADropdownItem.in.json", "out": "./lib/schemas/GetADropdownItem.out.json"}}, "UpdateADropdownItem": {"main": "./lib/actions/action.js", "title": "Update a dropdown item.", "description": "Update a dropdown item.", "callParams": {"pathName": "/dropdown_items/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateADropdownItem.in.json", "out": "./lib/schemas/UpdateADropdownItem.out.json"}}, "DeleteADropdownItem": {"main": "./lib/actions/action.js", "title": "Delete a dropdown item.", "description": "Delete a dropdown item.", "callParams": {"pathName": "/dropdown_items/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteADropdownItem.in.json", "out": "./lib/schemas/DeleteADropdownItem.out.json"}}, "CreateADropdownItem": {"main": "./lib/actions/action.js", "title": "Create a dropdown item.", "description": "Create a dropdown item.", "callParams": {"pathName": "/custom_field_types/:custom_field_type_id/dropdown_items", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateADropdownItem.in.json", "out": "./lib/schemas/CreateADropdownItem.out.json"}}, "GetALabel": {"main": "./lib/actions/action.js", "title": "Get a label.", "description": "Get a label.", "callParams": {"pathName": "/labels/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetALabel.in.json", "out": "./lib/schemas/GetALabel.out.json"}}, "UpdateALabel": {"main": "./lib/actions/action.js", "title": "Update a label.", "description": "Update a label.", "callParams": {"pathName": "/labels/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateALabel.in.json", "out": "./lib/schemas/UpdateALabel.out.json"}}, "DeleteALabel": {"main": "./lib/actions/action.js", "title": "Delete a label.", "description": "Delete a label.", "callParams": {"pathName": "/labels/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteALabel.in.json", "out": "./lib/schemas/DeleteALabel.out.json"}}, "CreateALabel": {"main": "./lib/actions/action.js", "title": "Create a label.", "description": "Create a label.", "callParams": {"pathName": "/projects/:project_id/labels", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateALabel.in.json", "out": "./lib/schemas/CreateALabel.out.json"}}, "GetAPerson": {"main": "./lib/actions/action.js", "title": "Get a person.", "description": "Get a person.", "callParams": {"pathName": "/persons/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAPerson.in.json", "out": "./lib/schemas/GetAPerson.out.json"}}, "GetTheCurrentPerson": {"main": "./lib/actions/action.js", "title": "Get the current person.", "description": "Get the current person.", "callParams": {"pathName": "/persons/me", "method": "get"}, "metadata": {"in": "./lib/schemas/GetTheCurrentPerson.in.json", "out": "./lib/schemas/GetTheCurrentPerson.out.json"}}, "CreateAProject": {"main": "./lib/actions/action.js", "title": "Create a project.", "description": "Create a project.", "callParams": {"pathName": "/projects", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateAProject.in.json", "out": "./lib/schemas/CreateAProject.out.json"}}, "GetAProject": {"main": "./lib/actions/action.js", "title": "Get a project.", "description": "Get a project.", "callParams": {"pathName": "/projects/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAProject.in.json", "out": "./lib/schemas/GetAProject.out.json"}}, "UpdateAProject": {"main": "./lib/actions/action.js", "title": "Update a project.", "description": "Update a project.", "callParams": {"pathName": "/projects/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateAProject.in.json", "out": "./lib/schemas/UpdateAProject.out.json"}}, "DuplicateAProject": {"main": "./lib/actions/action.js", "title": "Duplicate a project.", "description": "Duplicate a project.", "callParams": {"pathName": "/projects/:id/duplicate", "method": "post"}, "metadata": {"in": "./lib/schemas/DuplicateAProject.in.json", "out": "./lib/schemas/DuplicateAProject.out.json"}}, "GetAProjectImage": {"main": "./lib/actions/action.js", "title": "Get a project image.", "description": "Get a project image.", "callParams": {"pathName": "/:project_id/project_image", "method": "getprojects"}, "metadata": {"in": "./lib/schemas/GetAProjectImage.in.json", "out": "./lib/schemas/GetAProjectImage.out.json"}}, "UploadAProjectImage": {"main": "./lib/actions/action.js", "title": "Upload a project image.", "description": "Upload a project image.", "callParams": {"pathName": "/:project_id/project_images", "method": "postprojects"}, "metadata": {"in": "./lib/schemas/UploadAProjectImage.in.json", "out": "./lib/schemas/UploadAProjectImage.out.json"}}, "RemoveAProjectImage": {"main": "./lib/actions/action.js", "title": "Remove a project image.", "description": "Remove a project image.", "callParams": {"pathName": "/:id", "method": "deleteproject_images"}, "metadata": {"in": "./lib/schemas/RemoveAProjectImage.in.json", "out": "./lib/schemas/RemoveAProjectImage.out.json"}}, "AddAProjectRight": {"main": "./lib/actions/action.js", "title": "Add a project right. Meistertask Business Plan only!", "description": "Add a project right. Meistertask Business Plan only!", "callParams": {"pathName": "/projects/:project_id/project_memberships", "method": "post"}, "metadata": {"in": "./lib/schemas/AddAProjectRight.in.json", "out": "./lib/schemas/AddAProjectRight.out.json"}}, "UpdateAProjectRight": {"main": "./lib/actions/action.js", "title": "Update a project right.", "description": "Update a project right.", "callParams": {"pathName": "/project_rights/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateAProjectRight.in.json", "out": "./lib/schemas/UpdateAProjectRight.out.json"}}, "RemoveAProjectRight": {"main": "./lib/actions/action.js", "title": "Remove a project right.", "description": "Remove a project right.", "callParams": {"pathName": "/project_rights/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/RemoveAProjectRight.in.json", "out": "./lib/schemas/RemoveAProjectRight.out.json"}}, "UpdateAProjectMembership": {"main": "./lib/actions/action.js", "title": "Update a project membership. Meistertask Business Plan only!", "description": "Update a project membership. Meistertask Business Plan only!", "callParams": {"pathName": "/project_memberships/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateAProjectMembership.in.json", "out": "./lib/schemas/UpdateAProjectMembership.out.json"}}, "RemovesAProjectMembership": {"main": "./lib/actions/action.js", "title": "Removes a project membership. Meistertask Business Plan only!", "description": "Removes a project membership. Meistertask Business Plan only!", "callParams": {"pathName": "/project_memberships/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/RemovesAProjectMembership.in.json", "out": "./lib/schemas/RemovesAProjectMembership.out.json"}}, "EnableAProjectSetting": {"main": "./lib/actions/action.js", "title": "Enable a project setting.", "description": "Enable a project setting.", "callParams": {"pathName": "/projects/:project_id/project_settings", "method": "post"}, "metadata": {"in": "./lib/schemas/EnableAProjectSetting.in.json", "out": "./lib/schemas/EnableAProjectSetting.out.json"}}, "DisablesAProjectSetting": {"main": "./lib/actions/action.js", "title": "Disables a project setting.", "description": "Disables a project setting.", "callParams": {"pathName": "/project_settings/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DisablesAProjectSetting.in.json", "out": "./lib/schemas/DisablesAProjectSetting.out.json"}}, "GetAllGroups": {"main": "./lib/actions/action.js", "title": "Get all groups. Meistertask Business Plan only!", "description": "Get all groups. Meistertask Business Plan only!", "callParams": {"pathName": "/groups", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAllGroups.in.json", "out": "./lib/schemas/GetAllGroups.out.json"}}, "GetAGroup": {"main": "./lib/actions/action.js", "title": "Get a group.", "description": "Get a group.", "callParams": {"pathName": "/groups/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetAGroup.in.json", "out": "./lib/schemas/GetAGroup.out.json"}}, "CreateASection": {"main": "./lib/actions/action.js", "title": "Create a section.", "description": "Create a section.", "callParams": {"pathName": "/projects/:project_id/sections", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateASection.in.json", "out": "./lib/schemas/CreateASection.out.json"}}, "GetASection": {"main": "./lib/actions/action.js", "title": "Get a section.", "description": "Get a section.", "callParams": {"pathName": "/sections/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetASection.in.json", "out": "./lib/schemas/GetASection.out.json"}}, "UpdateASection": {"main": "./lib/actions/action.js", "title": "Update a section.", "description": "Update a section.", "callParams": {"pathName": "/sections/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateASection.in.json", "out": "./lib/schemas/UpdateASection.out.json"}}, "CreateATask": {"main": "./lib/actions/action.js", "title": "Create a task.", "description": "Create a task.", "callParams": {"pathName": "/sections/:section_id/tasks", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateATask.in.json", "out": "./lib/schemas/CreateATask.out.json"}}, "GetATask": {"main": "./lib/actions/action.js", "title": "Get a task.", "description": "Get a task.", "callParams": {"pathName": "/tasks/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetATask.in.json", "out": "./lib/schemas/GetATask.out.json"}}, "UpdateATask": {"main": "./lib/actions/action.js", "title": "Update a task.", "description": "Update a task.", "callParams": {"pathName": "/tasks/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateATask.in.json", "out": "./lib/schemas/UpdateATask.out.json"}}, "AddALabelToATask": {"main": "./lib/actions/action.js", "title": "Add a label to a task.", "description": "Add a label to a task.", "callParams": {"pathName": "/tasks/:task_id/task_labels", "method": "post"}, "metadata": {"in": "./lib/schemas/AddALabelToATask.in.json", "out": "./lib/schemas/AddALabelToATask.out.json"}}, "GetATaskLabel": {"main": "./lib/actions/action.js", "title": "Get a task label.", "description": "Get a task label.", "callParams": {"pathName": "/task_labels/:id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetATaskLabel.in.json", "out": "./lib/schemas/GetATaskLabel.out.json"}}, "RemoveALabelFromATask": {"main": "./lib/actions/action.js", "title": "Remove a label from a task.", "description": "Remove a label from a task.", "callParams": {"pathName": "/task_labels/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/RemoveALabelFromATask.in.json", "out": "./lib/schemas/RemoveALabelFromATask.out.json"}}, "CreateATaskRelationship": {"main": "./lib/actions/action.js", "title": "Create a task relationship.", "description": "Create a task relationship.", "callParams": {"pathName": "/tasks/:task_id/task_relationships", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateATaskRelationship.in.json", "out": "./lib/schemas/CreateATaskRelationship.out.json"}}, "DeleteATaskRelationship": {"main": "./lib/actions/action.js", "title": "Delete a task relationship.", "description": "Delete a task relationship.", "callParams": {"pathName": "/task_relationships/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteATaskRelationship.in.json", "out": "./lib/schemas/DeleteATaskRelationship.out.json"}}, "CreateATaskSubscription": {"main": "./lib/actions/action.js", "title": "Create a task subscription.", "description": "Create a task subscription.", "callParams": {"pathName": "/tasks/:task_id/task_subscriptions", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateATaskSubscription.in.json", "out": "./lib/schemas/CreateATaskSubscription.out.json"}}, "DeleteATaskSubscription": {"main": "./lib/actions/action.js", "title": "Delete a task subscription.", "description": "Delete a task subscription.", "callParams": {"pathName": "/task_subscriptions/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteATaskSubscription.in.json", "out": "./lib/schemas/DeleteATaskSubscription.out.json"}}, "GetTasks:task_idTimeline_item": {"main": "./lib/actions/action.js", "title": "", "description": "", "callParams": {"pathName": "/tasks/:task_id/timeline_item", "method": "get"}, "metadata": {"in": "./lib/schemas/GetTasks:task_idTimeline_item.in.json", "out": "./lib/schemas/GetTasks:task_idTimeline_item.out.json"}}, "PostTasks:task_idTimeline_item": {"main": "./lib/actions/action.js", "title": "", "description": "", "callParams": {"pathName": "/tasks/:task_id/timeline_item", "method": "post"}, "metadata": {"in": "./lib/schemas/PostTasks:task_idTimeline_item.in.json", "out": "./lib/schemas/PostTasks:task_idTimeline_item.out.json"}}, "GetTimeline_item:timeline_item_id": {"main": "./lib/actions/action.js", "title": "", "description": "", "callParams": {"pathName": "/timeline_item/:timeline_item_id", "method": "get"}, "metadata": {"in": "./lib/schemas/GetTimeline_item:timeline_item_id.in.json", "out": "./lib/schemas/GetTimeline_item:timeline_item_id.out.json"}}, "PutTimeline_item:timeline_item_id": {"main": "./lib/actions/action.js", "title": "", "description": "", "callParams": {"pathName": "/timeline_item/:timeline_item_id", "method": "put"}, "metadata": {"in": "./lib/schemas/PutTimeline_item:timeline_item_id.in.json", "out": "./lib/schemas/PutTimeline_item:timeline_item_id.out.json"}}, "DeleteTimeline_item:timeline_item_id": {"main": "./lib/actions/action.js", "title": "", "description": "", "callParams": {"pathName": "/timeline_item/:timeline_item_id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteTimeline_item:timeline_item_id.in.json", "out": "./lib/schemas/DeleteTimeline_item:timeline_item_id.out.json"}}, "CreateOrStartAWorkIntervalForATask": {"main": "./lib/actions/action.js", "title": "Create or start a work interval for a task.", "description": "Create or start a work interval for a task.", "callParams": {"pathName": "/tasks/:task_id/work_intervals", "method": "post"}, "metadata": {"in": "./lib/schemas/CreateOrStartAWorkIntervalForATask.in.json", "out": "./lib/schemas/CreateOrStartAWorkIntervalForATask.out.json"}}, "UpdateOrCloseAWorkInterval": {"main": "./lib/actions/action.js", "title": "Update or close a work interval.", "description": "Update or close a work interval.", "callParams": {"pathName": "/work_intervals/:id", "method": "put"}, "metadata": {"in": "./lib/schemas/UpdateOrCloseAWorkInterval.in.json", "out": "./lib/schemas/UpdateOrCloseAWorkInterval.out.json"}}, "DeleteAWorkInterval": {"main": "./lib/actions/action.js", "title": "Delete a work interval.", "description": "Delete a work interval.", "callParams": {"pathName": "/work_intervals/:id", "method": "delete"}, "metadata": {"in": "./lib/schemas/DeleteAWorkInterval.in.json", "out": "./lib/schemas/DeleteAWorkInterval.out.json"}}}}
+{
+  "title": "Meistertask API",
+  "docsUrl": "https://developers.meistertask.com/reference/",
+  "url": "https://developers.meistertask.com/reference/",
+  "envVars": {},
+  "triggers": {
+    "GetAllAttachmentsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all attachments of a task.",
+      "description": "Get all attachments of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/attachments",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllAttachmentsOfATask.in.json",
+        "out": "./lib/schemas/GetAllAttachmentsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllChecklistsOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all checklists of a project.",
+      "description": "Get all checklists of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/checklists",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllChecklistsOfAProject.in.json",
+        "out": "./lib/schemas/GetAllChecklistsOfAProject.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllChecklistsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all checklists of a task.",
+      "description": "Get all checklists of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/checklists",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllChecklistsOfATask.in.json",
+        "out": "./lib/schemas/GetAllChecklistsOfATask.out.json"
+      },
+      "queryParams": [
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllChecklist-itemsOfAChecklist": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all checklist-items of a checklist.",
+      "description": "Get all checklist-items of a checklist.",
+      "callParams": {
+        "pathName": "/checklists/:checklist_id/checklist_items",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllChecklist-itemsOfAChecklist.in.json",
+        "out": "./lib/schemas/GetAllChecklist-itemsOfAChecklist.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllChecklist-itemsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all checklist-items of a task.",
+      "description": "Get all checklist-items of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/checklist_items",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllChecklist-itemsOfATask.in.json",
+        "out": "./lib/schemas/GetAllChecklist-itemsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllCommentsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all comments of a task.",
+      "description": "Get all comments of a task.",
+      "callParams": { "pathName": "/tasks/:task_id/comments", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllCommentsOfATask.in.json",
+        "out": "./lib/schemas/GetAllCommentsOfATask.out.json"
+      },
+      "queryParams": [
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllCustomFieldsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all custom fields of a task.",
+      "description": "Get all custom fields of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/custom_fields",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllCustomFieldsOfATask.in.json",
+        "out": "./lib/schemas/GetAllCustomFieldsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllCustomFieldTypesOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all custom field types of a project.",
+      "description": "Get all custom field types of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/custom_field_types",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllCustomFieldTypesOfAProject.in.json",
+        "out": "./lib/schemas/GetAllCustomFieldTypesOfAProject.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllDropdownItemsOfACustomFieldType": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all dropdown items of a custom field type.",
+      "description": "Get all dropdown items of a custom field type.",
+      "callParams": {
+        "pathName": "/custom_field_types/:custom_field_type_id/dropdown_items",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllDropdownItemsOfACustomFieldType.in.json",
+        "out": "./lib/schemas/GetAllDropdownItemsOfACustomFieldType.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllLabelsOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all labels of a project.",
+      "description": "Get all labels of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/labels",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllLabelsOfAProject.in.json",
+        "out": "./lib/schemas/GetAllLabelsOfAProject.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllLabelsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all labels of a task.",
+      "description": "Get all labels of a task.",
+      "callParams": { "pathName": "/tasks/:task_id/labels", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllLabelsOfATask.in.json",
+        "out": "./lib/schemas/GetAllLabelsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllAvailablePersons": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all available persons.",
+      "description": "Get all available persons.",
+      "callParams": { "pathName": "/persons", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllAvailablePersons.in.json",
+        "out": "./lib/schemas/GetAllAvailablePersons.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllPersonsWhoHaveAccessToAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all persons who have access to a project.",
+      "description": "Get all persons who have access to a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/persons",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllPersonsWhoHaveAccessToAProject.in.json",
+        "out": "./lib/schemas/GetAllPersonsWhoHaveAccessToAProject.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllAvailableProjects": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all available projects.",
+      "description": "Get all available projects.",
+      "callParams": { "pathName": "/projects", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllAvailableProjects.in.json",
+        "out": "./lib/schemas/GetAllAvailableProjects.out.json"
+      },
+      "queryParams": [
+        { "name": "status", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllProjectSettingsOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all project settings of a project.",
+      "description": "Get all project settings of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/project_settings",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllProjectSettingsOfAProject.in.json",
+        "out": "./lib/schemas/GetAllProjectSettingsOfAProject.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllSectionOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all section of a project.",
+      "description": "Get all section of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/sections",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllSectionOfAProject.in.json",
+        "out": "./lib/schemas/GetAllSectionOfAProject.out.json"
+      },
+      "queryParams": [
+        { "name": "status", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllAvailableSections": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all available sections.",
+      "description": "Get all available sections.",
+      "callParams": { "pathName": "/sections", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllAvailableSections.in.json",
+        "out": "./lib/schemas/GetAllAvailableSections.out.json"
+      },
+      "queryParams": [
+        { "name": "status", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllTasksOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all tasks of a project.",
+      "description": "Get all tasks of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/tasks",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllTasksOfAProject.in.json",
+        "out": "./lib/schemas/GetAllTasksOfAProject.out.json"
+      },
+      "queryParams": [
+        { "name": "assigned_to_me", "type": "string" },
+        { "name": "focused_by_me", "type": "string" },
+        { "name": "status", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllTasksOfASection": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all tasks of a section.",
+      "description": "Get all tasks of a section.",
+      "callParams": {
+        "pathName": "/sections/:section_id/tasks",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllTasksOfASection.in.json",
+        "out": "./lib/schemas/GetAllTasksOfASection.out.json"
+      },
+      "queryParams": [
+        { "name": "assigned_to_me", "type": "string" },
+        { "name": "focused_by_me", "type": "string" },
+        { "name": "status", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllAvailableTasks": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all available tasks.",
+      "description": "Get all available tasks.",
+      "callParams": { "pathName": "/tasks", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllAvailableTasks.in.json",
+        "out": "./lib/schemas/GetAllAvailableTasks.out.json"
+      },
+      "queryParams": [
+        { "name": "assigned_to_me", "type": "string" },
+        { "name": "focused_by_me", "type": "string" },
+        { "name": "status", "type": "string" },
+        { "name": "labels", "type": "string" },
+        { "name": "items", "type": "integer" },
+        { "name": "page", "type": "integer" },
+        { "name": "sort", "type": "string" }
+      ]
+    },
+    "GetAllTaskLabelsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all task labels of a task.",
+      "description": "Get all task labels of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_labels",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllTaskLabelsOfATask.in.json",
+        "out": "./lib/schemas/GetAllTaskLabelsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllTaskRelationshipsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all task relationships of a task.",
+      "description": "Get all task relationships of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_relationships",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllTaskRelationshipsOfATask.in.json",
+        "out": "./lib/schemas/GetAllTaskRelationshipsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllTaskSubscriptionsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all task subscriptions of a task.",
+      "description": "Get all task subscriptions of a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_subscriptions",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllTaskSubscriptionsOfATask.in.json",
+        "out": "./lib/schemas/GetAllTaskSubscriptionsOfATask.out.json"
+      },
+      "queryParams": []
+    },
+    "GetAllWorkIntervalsOfAProject": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all work intervals of a project.",
+      "description": "Get all work intervals of a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/work_intervals",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllWorkIntervalsOfAProject.in.json",
+        "out": "./lib/schemas/GetAllWorkIntervalsOfAProject.out.json"
+      },
+      "queryParams": [
+        { "name": "finished", "type": "boolean" },
+        { "name": "ongoing", "type": "boolean" }
+      ]
+    },
+    "GetAllWorkIntervalsOfATask": {
+      "main": "./lib/triggers/trigger.js",
+      "title": "Get all work intervals of a task..",
+      "description": "Get all work intervals of a task..",
+      "callParams": {
+        "pathName": "/tasks/:task_id/work_intervals",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAllWorkIntervalsOfATask.in.json",
+        "out": "./lib/schemas/GetAllWorkIntervalsOfATask.out.json"
+      },
+      "queryParams": [
+        { "name": "finished", "type": "boolean" },
+        { "name": "ongoing", "type": "boolean" }
+      ]
+    }
+  },
+  "actions": {
+    "GetAnAttachment": {
+      "main": "./lib/actions/action.js",
+      "title": "Get an attachment.",
+      "description": "Get an attachment.",
+      "callParams": { "pathName": "/attachments/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAnAttachment.in.json",
+        "out": "./lib/schemas/GetAnAttachment.out.json"
+      }
+    },
+    "DeleteTheAttachment": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete the attachment.",
+      "description": "Delete the attachment.",
+      "callParams": { "pathName": "/attachments/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteTheAttachment.in.json",
+        "out": "./lib/schemas/DeleteTheAttachment.out.json"
+      }
+    },
+    "CreateAnAttachmentForATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Create an attachment for a task.",
+      "description": "Create an attachment for a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/attachments",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateAnAttachmentForATask.in.json",
+        "out": "./lib/schemas/CreateAnAttachmentForATask.out.json"
+      }
+    },
+    "GetAChecklist": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a checklist.",
+      "description": "Get a checklist.",
+      "callParams": { "pathName": "/checklists/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAChecklist.in.json",
+        "out": "./lib/schemas/GetAChecklist.out.json"
+      }
+    },
+    "UpdateAChecklist": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a checklist.",
+      "description": "Update a checklist.",
+      "callParams": { "pathName": "/checklists/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateAChecklist.in.json",
+        "out": "./lib/schemas/UpdateAChecklist.out.json"
+      }
+    },
+    "DeleteAChecklist": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a checklist.",
+      "description": "Delete a checklist.",
+      "callParams": { "pathName": "/checklists/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteAChecklist.in.json",
+        "out": "./lib/schemas/DeleteAChecklist.out.json"
+      }
+    },
+    "CreateAChecklistInAProject": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a checklist in a project.",
+      "description": "Create a checklist in a project.",
+      "callParams": {
+        "pathName": "/projects/:project_id/checklists",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateAChecklistInAProject.in.json",
+        "out": "./lib/schemas/CreateAChecklistInAProject.out.json"
+      }
+    },
+    "CreateAChecklistInATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a checklist in a task.",
+      "description": "Create a checklist in a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/checklists",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateAChecklistInATask.in.json",
+        "out": "./lib/schemas/CreateAChecklistInATask.out.json"
+      }
+    },
+    "GetAChecklist-item": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a checklist-item.",
+      "description": "Get a checklist-item.",
+      "callParams": { "pathName": "/checklist_items/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAChecklist-item.in.json",
+        "out": "./lib/schemas/GetAChecklist-item.out.json"
+      }
+    },
+    "UpdateAChecklist-item": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a checklist-item.",
+      "description": "Update a checklist-item.",
+      "callParams": { "pathName": "/checklist_items/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateAChecklist-item.in.json",
+        "out": "./lib/schemas/UpdateAChecklist-item.out.json"
+      }
+    },
+    "DeleteAChecklist-item": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a checklist-item.",
+      "description": "Delete a checklist-item.",
+      "callParams": { "pathName": "/checklist_items/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteAChecklist-item.in.json",
+        "out": "./lib/schemas/DeleteAChecklist-item.out.json"
+      }
+    },
+    "CreateAChecklist-itemInAChecklist": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a checklist-item in a checklist.",
+      "description": "Create a checklist-item in a checklist.",
+      "callParams": {
+        "pathName": "/checklists/:checklist_id/checklist_items",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateAChecklist-itemInAChecklist.in.json",
+        "out": "./lib/schemas/CreateAChecklist-itemInAChecklist.out.json"
+      }
+    },
+    "GetAComment": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a comment.",
+      "description": "Get a comment.",
+      "callParams": { "pathName": "/comments/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAComment.in.json",
+        "out": "./lib/schemas/GetAComment.out.json"
+      }
+    },
+    "DeleteAComment": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a comment.",
+      "description": "Delete a comment.",
+      "callParams": { "pathName": "/comments/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteAComment.in.json",
+        "out": "./lib/schemas/DeleteAComment.out.json"
+      }
+    },
+    "CreateAComment": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a comment.",
+      "description": "Create a comment.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/comments",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateAComment.in.json",
+        "out": "./lib/schemas/CreateAComment.out.json"
+      }
+    },
+    "GetACustomField": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a custom field.",
+      "description": "Get a custom field.",
+      "callParams": { "pathName": "/custom_fields/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetACustomField.in.json",
+        "out": "./lib/schemas/GetACustomField.out.json"
+      }
+    },
+    "UpdateACustomField": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a custom field.",
+      "description": "Update a custom field.",
+      "callParams": { "pathName": "/custom_fields/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateACustomField.in.json",
+        "out": "./lib/schemas/UpdateACustomField.out.json"
+      }
+    },
+    "DeleteACustomField": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a custom field.",
+      "description": "Delete a custom field.",
+      "callParams": { "pathName": "/custom_fields/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteACustomField.in.json",
+        "out": "./lib/schemas/DeleteACustomField.out.json"
+      }
+    },
+    "CreateACustomField": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a custom field.",
+      "description": "Create a custom field.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/custom_fields",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateACustomField.in.json",
+        "out": "./lib/schemas/CreateACustomField.out.json"
+      }
+    },
+    "GetACustomFieldType": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a custom field type.",
+      "description": "Get a custom field type.",
+      "callParams": { "pathName": "/custom_field_types/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetACustomFieldType.in.json",
+        "out": "./lib/schemas/GetACustomFieldType.out.json"
+      }
+    },
+    "UpdateACustomFieldType": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a custom field type.",
+      "description": "Update a custom field type.",
+      "callParams": { "pathName": "/custom_field_types/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateACustomFieldType.in.json",
+        "out": "./lib/schemas/UpdateACustomFieldType.out.json"
+      }
+    },
+    "DeleteACustomFieldType": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a custom field type.",
+      "description": "Delete a custom field type.",
+      "callParams": {
+        "pathName": "/custom_field_types/:id",
+        "method": "delete"
+      },
+      "metadata": {
+        "in": "./lib/schemas/DeleteACustomFieldType.in.json",
+        "out": "./lib/schemas/DeleteACustomFieldType.out.json"
+      }
+    },
+    "CreateACustomFieldType": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a custom field type.",
+      "description": "Create a custom field type.",
+      "callParams": {
+        "pathName": "/projects/:project_id/custom_field_types",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateACustomFieldType.in.json",
+        "out": "./lib/schemas/CreateACustomFieldType.out.json"
+      }
+    },
+    "GetADropdownItem": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a dropdown item.",
+      "description": "Get a dropdown item.",
+      "callParams": { "pathName": "/dropdown_items/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetADropdownItem.in.json",
+        "out": "./lib/schemas/GetADropdownItem.out.json"
+      }
+    },
+    "UpdateADropdownItem": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a dropdown item.",
+      "description": "Update a dropdown item.",
+      "callParams": { "pathName": "/dropdown_items/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateADropdownItem.in.json",
+        "out": "./lib/schemas/UpdateADropdownItem.out.json"
+      }
+    },
+    "DeleteADropdownItem": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a dropdown item.",
+      "description": "Delete a dropdown item.",
+      "callParams": { "pathName": "/dropdown_items/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteADropdownItem.in.json",
+        "out": "./lib/schemas/DeleteADropdownItem.out.json"
+      }
+    },
+    "CreateADropdownItem": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a dropdown item.",
+      "description": "Create a dropdown item.",
+      "callParams": {
+        "pathName": "/custom_field_types/:custom_field_type_id/dropdown_items",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateADropdownItem.in.json",
+        "out": "./lib/schemas/CreateADropdownItem.out.json"
+      }
+    },
+    "GetALabel": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a label.",
+      "description": "Get a label.",
+      "callParams": { "pathName": "/labels/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetALabel.in.json",
+        "out": "./lib/schemas/GetALabel.out.json"
+      }
+    },
+    "UpdateALabel": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a label.",
+      "description": "Update a label.",
+      "callParams": { "pathName": "/labels/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateALabel.in.json",
+        "out": "./lib/schemas/UpdateALabel.out.json"
+      }
+    },
+    "DeleteALabel": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a label.",
+      "description": "Delete a label.",
+      "callParams": { "pathName": "/labels/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteALabel.in.json",
+        "out": "./lib/schemas/DeleteALabel.out.json"
+      }
+    },
+    "CreateALabel": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a label.",
+      "description": "Create a label.",
+      "callParams": {
+        "pathName": "/projects/:project_id/labels",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateALabel.in.json",
+        "out": "./lib/schemas/CreateALabel.out.json"
+      }
+    },
+    "GetAPerson": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a person.",
+      "description": "Get a person.",
+      "callParams": { "pathName": "/persons/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAPerson.in.json",
+        "out": "./lib/schemas/GetAPerson.out.json"
+      }
+    },
+    "GetTheCurrentPerson": {
+      "main": "./lib/actions/action.js",
+      "title": "Get the current person.",
+      "description": "Get the current person.",
+      "callParams": { "pathName": "/persons/me", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetTheCurrentPerson.in.json",
+        "out": "./lib/schemas/GetTheCurrentPerson.out.json"
+      }
+    },
+    "CreateAProject": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a project.",
+      "description": "Create a project.",
+      "callParams": { "pathName": "/projects", "method": "post" },
+      "metadata": {
+        "in": "./lib/schemas/CreateAProject.in.json",
+        "out": "./lib/schemas/CreateAProject.out.json"
+      }
+    },
+    "GetAProject": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a project.",
+      "description": "Get a project.",
+      "callParams": { "pathName": "/projects/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAProject.in.json",
+        "out": "./lib/schemas/GetAProject.out.json"
+      }
+    },
+    "UpdateAProject": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a project.",
+      "description": "Update a project.",
+      "callParams": { "pathName": "/projects/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateAProject.in.json",
+        "out": "./lib/schemas/UpdateAProject.out.json"
+      }
+    },
+    "DuplicateAProject": {
+      "main": "./lib/actions/action.js",
+      "title": "Duplicate a project.",
+      "description": "Duplicate a project.",
+      "callParams": { "pathName": "/projects/:id/duplicate", "method": "post" },
+      "metadata": {
+        "in": "./lib/schemas/DuplicateAProject.in.json",
+        "out": "./lib/schemas/DuplicateAProject.out.json"
+      }
+    },
+    "GetAProjectImage": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a project image.",
+      "description": "Get a project image.",
+      "callParams": {
+        "pathName": "/:project_id/project_image",
+        "method": "getprojects"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetAProjectImage.in.json",
+        "out": "./lib/schemas/GetAProjectImage.out.json"
+      }
+    },
+    "UploadAProjectImage": {
+      "main": "./lib/actions/action.js",
+      "title": "Upload a project image.",
+      "description": "Upload a project image.",
+      "callParams": {
+        "pathName": "/:project_id/project_images",
+        "method": "postprojects"
+      },
+      "metadata": {
+        "in": "./lib/schemas/UploadAProjectImage.in.json",
+        "out": "./lib/schemas/UploadAProjectImage.out.json"
+      }
+    },
+    "RemoveAProjectImage": {
+      "main": "./lib/actions/action.js",
+      "title": "Remove a project image.",
+      "description": "Remove a project image.",
+      "callParams": { "pathName": "/:id", "method": "deleteproject_images" },
+      "metadata": {
+        "in": "./lib/schemas/RemoveAProjectImage.in.json",
+        "out": "./lib/schemas/RemoveAProjectImage.out.json"
+      }
+    },
+    "AddAProjectRight": {
+      "main": "./lib/actions/action.js",
+      "title": "Add a project right. Meistertask Business Plan only!",
+      "description": "Add a project right. Meistertask Business Plan only!",
+      "callParams": {
+        "pathName": "/projects/:project_id/project_memberships",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/AddAProjectRight.in.json",
+        "out": "./lib/schemas/AddAProjectRight.out.json"
+      }
+    },
+    "UpdateAProjectRight": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a project right.",
+      "description": "Update a project right.",
+      "callParams": { "pathName": "/project_rights/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateAProjectRight.in.json",
+        "out": "./lib/schemas/UpdateAProjectRight.out.json"
+      }
+    },
+    "RemoveAProjectRight": {
+      "main": "./lib/actions/action.js",
+      "title": "Remove a project right.",
+      "description": "Remove a project right.",
+      "callParams": { "pathName": "/project_rights/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/RemoveAProjectRight.in.json",
+        "out": "./lib/schemas/RemoveAProjectRight.out.json"
+      }
+    },
+    "UpdateAProjectMembership": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a project membership. Meistertask Business Plan only!",
+      "description": "Update a project membership. Meistertask Business Plan only!",
+      "callParams": { "pathName": "/project_memberships/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateAProjectMembership.in.json",
+        "out": "./lib/schemas/UpdateAProjectMembership.out.json"
+      }
+    },
+    "RemovesAProjectMembership": {
+      "main": "./lib/actions/action.js",
+      "title": "Removes a project membership. Meistertask Business Plan only!",
+      "description": "Removes a project membership. Meistertask Business Plan only!",
+      "callParams": {
+        "pathName": "/project_memberships/:id",
+        "method": "delete"
+      },
+      "metadata": {
+        "in": "./lib/schemas/RemovesAProjectMembership.in.json",
+        "out": "./lib/schemas/RemovesAProjectMembership.out.json"
+      }
+    },
+    "EnableAProjectSetting": {
+      "main": "./lib/actions/action.js",
+      "title": "Enable a project setting.",
+      "description": "Enable a project setting.",
+      "callParams": {
+        "pathName": "/projects/:project_id/project_settings",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/EnableAProjectSetting.in.json",
+        "out": "./lib/schemas/EnableAProjectSetting.out.json"
+      }
+    },
+    "DisablesAProjectSetting": {
+      "main": "./lib/actions/action.js",
+      "title": "Disables a project setting.",
+      "description": "Disables a project setting.",
+      "callParams": { "pathName": "/project_settings/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DisablesAProjectSetting.in.json",
+        "out": "./lib/schemas/DisablesAProjectSetting.out.json"
+      }
+    },
+    "GetAllGroups": {
+      "main": "./lib/actions/action.js",
+      "title": "Get all groups. Meistertask Business Plan only!",
+      "description": "Get all groups. Meistertask Business Plan only!",
+      "callParams": { "pathName": "/groups", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAllGroups.in.json",
+        "out": "./lib/schemas/GetAllGroups.out.json"
+      }
+    },
+    "GetAGroup": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a group.",
+      "description": "Get a group.",
+      "callParams": { "pathName": "/groups/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetAGroup.in.json",
+        "out": "./lib/schemas/GetAGroup.out.json"
+      }
+    },
+    "CreateASection": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a section.",
+      "description": "Create a section.",
+      "callParams": {
+        "pathName": "/projects/:project_id/sections",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateASection.in.json",
+        "out": "./lib/schemas/CreateASection.out.json"
+      }
+    },
+    "GetASection": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a section.",
+      "description": "Get a section.",
+      "callParams": { "pathName": "/sections/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetASection.in.json",
+        "out": "./lib/schemas/GetASection.out.json"
+      }
+    },
+    "UpdateASection": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a section.",
+      "description": "Update a section.",
+      "callParams": { "pathName": "/sections/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateASection.in.json",
+        "out": "./lib/schemas/UpdateASection.out.json"
+      }
+    },
+    "CreateATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a task.",
+      "description": "Create a task.",
+      "callParams": {
+        "pathName": "/sections/:section_id/tasks",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateATask.in.json",
+        "out": "./lib/schemas/CreateATask.out.json"
+      }
+    },
+    "GetATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a task.",
+      "description": "Get a task.",
+      "callParams": { "pathName": "/tasks/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetATask.in.json",
+        "out": "./lib/schemas/GetATask.out.json"
+      }
+    },
+    "UpdateATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Update a task.",
+      "description": "Update a task.",
+      "callParams": { "pathName": "/tasks/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateATask.in.json",
+        "out": "./lib/schemas/UpdateATask.out.json"
+      }
+    },
+    "AddALabelToATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Add a label to a task.",
+      "description": "Add a label to a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_labels",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/AddALabelToATask.in.json",
+        "out": "./lib/schemas/AddALabelToATask.out.json"
+      }
+    },
+    "GetATaskLabel": {
+      "main": "./lib/actions/action.js",
+      "title": "Get a task label.",
+      "description": "Get a task label.",
+      "callParams": { "pathName": "/task_labels/:id", "method": "get" },
+      "metadata": {
+        "in": "./lib/schemas/GetATaskLabel.in.json",
+        "out": "./lib/schemas/GetATaskLabel.out.json"
+      }
+    },
+    "RemoveALabelFromATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Remove a label from a task.",
+      "description": "Remove a label from a task.",
+      "callParams": { "pathName": "/task_labels/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/RemoveALabelFromATask.in.json",
+        "out": "./lib/schemas/RemoveALabelFromATask.out.json"
+      }
+    },
+    "CreateATaskRelationship": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a task relationship.",
+      "description": "Create a task relationship.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_relationships",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateATaskRelationship.in.json",
+        "out": "./lib/schemas/CreateATaskRelationship.out.json"
+      }
+    },
+    "DeleteATaskRelationship": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a task relationship.",
+      "description": "Delete a task relationship.",
+      "callParams": {
+        "pathName": "/task_relationships/:id",
+        "method": "delete"
+      },
+      "metadata": {
+        "in": "./lib/schemas/DeleteATaskRelationship.in.json",
+        "out": "./lib/schemas/DeleteATaskRelationship.out.json"
+      }
+    },
+    "CreateATaskSubscription": {
+      "main": "./lib/actions/action.js",
+      "title": "Create a task subscription.",
+      "description": "Create a task subscription.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/task_subscriptions",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateATaskSubscription.in.json",
+        "out": "./lib/schemas/CreateATaskSubscription.out.json"
+      }
+    },
+    "DeleteATaskSubscription": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a task subscription.",
+      "description": "Delete a task subscription.",
+      "callParams": {
+        "pathName": "/task_subscriptions/:id",
+        "method": "delete"
+      },
+      "metadata": {
+        "in": "./lib/schemas/DeleteATaskSubscription.in.json",
+        "out": "./lib/schemas/DeleteATaskSubscription.out.json"
+      }
+    },
+    "GetTasks:task_idTimeline_item": {
+      "main": "./lib/actions/action.js",
+      "title": "",
+      "description": "",
+      "callParams": {
+        "pathName": "/tasks/:task_id/timeline_item",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetTasks:task_idTimeline_item.in.json",
+        "out": "./lib/schemas/GetTasks:task_idTimeline_item.out.json"
+      }
+    },
+    "PostTasks:task_idTimeline_item": {
+      "main": "./lib/actions/action.js",
+      "title": "",
+      "description": "",
+      "callParams": {
+        "pathName": "/tasks/:task_id/timeline_item",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/PostTasks:task_idTimeline_item.in.json",
+        "out": "./lib/schemas/PostTasks:task_idTimeline_item.out.json"
+      }
+    },
+    "GetTimeline_item:timeline_item_id": {
+      "main": "./lib/actions/action.js",
+      "title": "",
+      "description": "",
+      "callParams": {
+        "pathName": "/timeline_item/:timeline_item_id",
+        "method": "get"
+      },
+      "metadata": {
+        "in": "./lib/schemas/GetTimeline_item:timeline_item_id.in.json",
+        "out": "./lib/schemas/GetTimeline_item:timeline_item_id.out.json"
+      }
+    },
+    "PutTimeline_item:timeline_item_id": {
+      "main": "./lib/actions/action.js",
+      "title": "",
+      "description": "",
+      "callParams": {
+        "pathName": "/timeline_item/:timeline_item_id",
+        "method": "put"
+      },
+      "metadata": {
+        "in": "./lib/schemas/PutTimeline_item:timeline_item_id.in.json",
+        "out": "./lib/schemas/PutTimeline_item:timeline_item_id.out.json"
+      }
+    },
+    "DeleteTimeline_item:timeline_item_id": {
+      "main": "./lib/actions/action.js",
+      "title": "",
+      "description": "",
+      "callParams": {
+        "pathName": "/timeline_item/:timeline_item_id",
+        "method": "delete"
+      },
+      "metadata": {
+        "in": "./lib/schemas/DeleteTimeline_item:timeline_item_id.in.json",
+        "out": "./lib/schemas/DeleteTimeline_item:timeline_item_id.out.json"
+      }
+    },
+    "CreateOrStartAWorkIntervalForATask": {
+      "main": "./lib/actions/action.js",
+      "title": "Create or start a work interval for a task.",
+      "description": "Create or start a work interval for a task.",
+      "callParams": {
+        "pathName": "/tasks/:task_id/work_intervals",
+        "method": "post"
+      },
+      "metadata": {
+        "in": "./lib/schemas/CreateOrStartAWorkIntervalForATask.in.json",
+        "out": "./lib/schemas/CreateOrStartAWorkIntervalForATask.out.json"
+      }
+    },
+    "UpdateOrCloseAWorkInterval": {
+      "main": "./lib/actions/action.js",
+      "title": "Update or close a work interval.",
+      "description": "Update or close a work interval.",
+      "callParams": { "pathName": "/work_intervals/:id", "method": "put" },
+      "metadata": {
+        "in": "./lib/schemas/UpdateOrCloseAWorkInterval.in.json",
+        "out": "./lib/schemas/UpdateOrCloseAWorkInterval.out.json"
+      }
+    },
+    "DeleteAWorkInterval": {
+      "main": "./lib/actions/action.js",
+      "title": "Delete a work interval.",
+      "description": "Delete a work interval.",
+      "callParams": { "pathName": "/work_intervals/:id", "method": "delete" },
+      "metadata": {
+        "in": "./lib/schemas/DeleteAWorkInterval.in.json",
+        "out": "./lib/schemas/DeleteAWorkInterval.out.json"
+      }
+    }
+  }
+}

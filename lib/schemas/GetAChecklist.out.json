@@ -1,7 +1,10 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": 2,
   "name": "Checklist A",
   "sequence": 0,
   "task_id": 120,
   "project_id": 6
-}
+}}

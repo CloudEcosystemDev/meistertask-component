@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "28" },
   "owner_id": { "type": "integer", "format": "int32", "example": "81" },
   "target_id": {
@@ -10,4 +13,5 @@
   "type": { "type": "string", "example": "duplicate_of" },
   "created_at": { "type": "string", "example": "2019-03-14T14:49:01.966431Z" },
   "updated_at": { "type": "string", "example": "2019-03-14T14:49:01.966431Z" }
+}
 }

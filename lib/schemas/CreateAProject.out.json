@@ -1,4 +1,7 @@
 {
+  "type": "object",
+  "properties": {
+
   "id": { "type": "integer", "format": "int32", "example": "123" },
   "token": { "type": "string", "example": "s3i5reaF" },
   "name": {
@@ -10,4 +13,5 @@
   "status": { "type": "integer", "format": "int32", "example": "1" },
   "created_at": { "type": "string", "example": "2017-01-13T09:29:36.360375Z" },
   "updated_at": { "type": "string", "example": "2017-01-16T10:10:21.460697Z" }
+}
 }
