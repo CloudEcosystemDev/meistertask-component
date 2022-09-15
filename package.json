@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@openintegrationhub/ferryman": "^2.1.0",
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "dayjs": "^1.11.5"
   },
   "devDependencies": {
     "eslint": "^5.3.0",
